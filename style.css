@@ -147,6 +147,15 @@ a:hover {
   transform: none;
 }
 
+#hamburger-nav a:hover {
+  color: grey; /* Cambiar el color de los enlaces cuando se pasa el cursor */
+  opacity: 0.8; /* Cambiar la opacidad de los elementos cuando se pasa el cursor */
+  cursor: pointer; /* Cambiar el cursor a una mano cuando se pasa el cursor */
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
 /* SECTIONS */
 
 section {
@@ -179,8 +188,8 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 800;
-  width: 800;
+  height: 800px;
+  width: 800px;
   margin: auto;
   justify-content: center;
   align-items: center;
@@ -361,7 +370,7 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content: center;
   gap: 0.5rem;
 }
 
