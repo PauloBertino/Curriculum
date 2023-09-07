@@ -54,6 +54,21 @@ body.dark-mode .btn {
   border-color: rgb(163, 163, 163)
 }
 
+.dark-mode .menu-links {
+  background-color: #181a1b;
+}
+
+.dark-mode .menu-links a {
+  color: white;
+}
+
+.dark-mode p {
+  color: #67625c;
+}
+
+.dark-mode .hamburger-icon span {
+  background-color: white;
+}
 
 /* Estilos para el botón deslizable */
 .dark-mode-toggle {
